@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="iE=Edge">
+  <meta name="description" content="A professional portfolio showcasing my skills, projects, and contact information.">
+  <meta name="keywords" content="portfolio, web developer, software engineer, projects, contact">
+  <meta name="author" content="Muhammed">
   <title>Muhammed Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="style.css"> <!--Link to your css file -->
   <link rel="stylesheet" href="<https://cdnjs.cloudflare.com/
   ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css>">
@@ -13,6 +17,9 @@
 </head>
 <body>
   <header>
+    <div>
+    <img src="images/logo.png" alt="Logo" width="300px" height="70px">
+  </div>
     <nav>
         <div class="menu-toggle">
           <span></span>
@@ -26,12 +33,15 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <div>
+    <a href="mailto:Oladelemuhammed2@gmail.com" class="Mail-btn">Contact Me</a>
+  </div>
   </header>
 
 
   <section id="hero" data-aos="fade-up">
-    <h1>Hi, I'm Muhammed</h1>
-    <p>A Frontend Developer passionate about building user-friendly web applications.</p>
+      <h1>Hi, I'm Dev. Muhammed</h1>
+    <p>Passionate frontend developer with a focus on modern design and clean, efficient code.<br> Let’s turn your ideas into reality with beautiful, functional web apps.</p>
     <a href="#project" class="btn">View My Work</a>
   </section>
 
@@ -51,13 +61,23 @@
         <a href="<https://github.com/your-github-link/project1>" target="_blank">view Project</a>
       </div>
       <!--Add more project similarly-->
+      <div class="project">
+        <h3>Techpulse</h3>
+        <p>Delivering technological solutions that boost productivity.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project"></div>
+        <h3>Techpulse</h3>
+        <p>Delivering technological solutions that boost productivity.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
     </div>
   </section>
 
 
   <section id="contact">
     <div id="contact">
-      <h2>Contact Me</h2>
+      <h2>Get In-Touch</h2>
       <p>You can reach me via the following:</p>
       <ul class="social-icons">
       <li><a href="<https://github.com/your-username>" ta
@@ -68,7 +88,8 @@
       s="fas fa-envelope"></i></a></li>
       </ul>
       </div>
-    <h2>Contact ME</h2>
+      <div>
+        <h2>Contact ME</h2>
     <P>Interested in working together? Fill out the form below</P>
     <form action="submit-form.php" method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
@@ -76,6 +97,7 @@
       <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
+      </div>
   </section>
 
 
