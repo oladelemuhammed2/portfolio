@@ -118,6 +118,13 @@ header nav ul li a:hover {
     color: #fff;
 }
 
+#hero h1 span {
+    background-image: linear-gradient(#E5B841, #E5B841);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 45%;
+}
+
 #hero p {
     font-size: 1.2rem;
     margin-bottom: 40px;
@@ -150,6 +157,13 @@ header nav ul li a:hover {
     color: #fff;
 }
 
+#about h2 span {
+    background-image: linear-gradient(#E5B841, #E5B841);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 45%;
+}
+
 #about p {
     font-size: 1.1rem;
     margin: 0 auto;
@@ -168,6 +182,13 @@ header nav ul li a:hover {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #fff;
+}
+
+#project h2 span {
+    background-image: linear-gradient(#E5B841, #E5B841);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 45%;
 }
 
 .project-list {
@@ -203,87 +224,19 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* .project {
-    background-color: #25262a;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project h3 {
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.project p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color: #fff;
-}
-
-.project a {
-    color: #FECD1A ;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-.project a:hover {
-    text-decoration: underline;
-}
-
-.project-three {
-    background-color: #25262a;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-.project-three h3 {
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.project-three p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color: #fff;
-}
-
-.project-three a {
-    color: #FECD1A ;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-.project-three a:hover {
-    text-decoration: underline;
-} */
-
-/* Contact section */
-
- /* Social icons styling */
- .social-icons {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    padding: 0;
-    }
-    .social-icons li a {
-    color: #fff;
-    font-size: 2rem;
-    transition: color 0.3s;
-    }
-    .social-icons li a:hover {
-    color: #ff6347;
-    }
+/* contact styling */
 #contact {
     padding: 50px 20px;
     background-color: #2d2e32;
     text-align: center;
+    color: #fff;
 }
 
-#Contact h2 {
-    color: white;
+#contact h2 span {
+    background-image: linear-gradient(#E5B841, #E5B841);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 45%;
 }
 
 #contact form {
